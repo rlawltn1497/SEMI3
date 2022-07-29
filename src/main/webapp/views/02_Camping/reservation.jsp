@@ -7,9 +7,6 @@ String mypath = request.getContextPath();
 %>
 <script src="<%=mypath%>/resources/vendor/jquery/jquery.min.js"></script>
 <script>
-	$(function(){
-		console.log("로그야 찍혀라 젠장할"); //javascript에서 로그찍는거 - java에서 system.out.println 같은 기능
-	})
 	
 	// Ajax - Post방식
 	function ajaxReservation() {
